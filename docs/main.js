@@ -308,7 +308,7 @@ var DataService = /** @class */ (function () {
         };
     }
     DataService.prototype.fetchDate = function () {
-        return this.http.get('/assets/students.json').map(function (response) { return response.json(); }).subscribe(function (data) { return console.log(data); });
+        return this.http.get('shubham.ag1038.github.io/assets/students.json').map(function (response) { return response.json(); }).subscribe(function (data) { return console.log(data); });
     };
     DataService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
